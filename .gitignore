@@ -1,0 +1,12 @@
+output/*
+!output/.gitkeep
+
+.env
+*.env
+
+config/*.json
+!config/niches.example.json
+
+__pycache__/
+*.pyc
+.venv/
